@@ -19,3 +19,33 @@ case class A7(x1: A6, x2: A6)
 case class A8(x1: A7, x2: A7)
 
 case class A9(x1: A8, x2: A8)
+
+@shapeless_annotation.ShapelessGeneric
+case class B0(x1: Int, x2: Int)
+
+@shapeless_annotation.ShapelessGeneric
+case class B1(x1: B0, x2: B0)
+
+@shapeless_annotation.ShapelessGeneric
+case class B2(x1: B1, x2: B1)
+
+@shapeless_annotation.ShapelessGeneric
+case class B3(x1: B2, x2: B2)
+
+@shapeless_annotation.ShapelessGeneric
+case class B4(x1: B3, x2: B3)
+
+@shapeless_annotation.ShapelessGeneric
+case class B5(x1: B4, x2: B4)
+
+@shapeless_annotation.ShapelessGeneric
+case class B6(x1: B5, x2: B5)
+
+@shapeless_annotation.ShapelessGeneric
+case class B7(x1: B6, x2: B6)
+
+@shapeless_annotation.ShapelessGeneric
+case class B8(x1: B7, x2: B7)
+
+@shapeless_annotation.ShapelessGeneric
+case class B9(x1: B8, x2: B8)
